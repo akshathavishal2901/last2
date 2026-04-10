@@ -2,7 +2,7 @@ name: Java CI/CD Pipeline
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build:
@@ -21,4 +21,4 @@ jobs:
 
       - name: Build using Maven
         run: mvn clean install
-        working-directory: cicd_maven/demo
+        working-directory: new1/demo
