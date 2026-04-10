@@ -19,4 +19,4 @@ jobs:
 
     - name: Build using Maven
       run: mvn clean install
-      working-directory: cicd_maven/demo
+      working-directory: new1/demo
